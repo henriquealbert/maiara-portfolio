@@ -5,7 +5,7 @@ import { StarPolygon } from 'modules/components/StarPolygon'
 import { TopDivider } from 'modules/components/TopDivider'
 
 export const HeroSection = () => (
-  <Box h="100vh">
+  <Box h="100vh" as="section">
     <Navbar />
     <TopDivider />
     <Flex justify="center" my={20}>

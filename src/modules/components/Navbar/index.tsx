@@ -9,8 +9,8 @@ export const Navbar = () => {
     { title: 'Let’s talk', href: '#contact' }
   ]
   return (
-    <Flex pt="3.375rem" pb="7.813rem" justify="center">
-      <Flex>
+    <Flex as="header" pt="3.375rem" pb="7.813rem" justify="center">
+      <Flex as="nav">
         {menuLinks.map((link) => (
           <Button key={link.title} href={link.href} variant="ghost" d="block">
             {link.title}

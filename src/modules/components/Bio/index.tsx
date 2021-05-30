@@ -40,14 +40,10 @@ export const Bio = () => (
         </Heading>
       </Flex>
       <Text maxW="560px" letterSpacing="wide" mt={6}>
-        {`I'm a self-taught Ui/Ux Designer devoted to create functional web and
-      mobile experiences. I'm a super quick learner and always put on practice
-      what I learn.`}
+        {`I'm a self-taught Ui/Ux Designer devoted to creating functional web and mobile experiences. I'm a super quick learner and always put into practice what I learn.`}
         <br />
         <br />
-        {`I have a background in Marketing and Fashion Design and I've been
-        traveling the world since the beginning of 2019 as a Digital Nomad. I
-        just love the experience of learning about other cultures.`}
+        {`I have a background in Marketing and Fashion Design and I've been traveling the world since 2019 as a Digital Nomad. I just love the experience of learning about other cultures.`}
       </Text>
     </Box>
   </Flex>

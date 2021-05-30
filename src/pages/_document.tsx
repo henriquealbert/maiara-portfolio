@@ -46,7 +46,10 @@ export default class MyDocument extends Document {
             property="og:description"
             content="Ui/Ux Designer devoted to creating functional web & mobile experiences focused on daily solutions."
           />
-          <meta property="og:image" content="og.jpg" />
+          <meta
+            property="og:image"
+            content="https://maiara-santos.vercel.app/og.jpg"
+          />
 
           <meta property="twitter:card" content="summary_large_image" />
           <meta
@@ -58,7 +61,10 @@ export default class MyDocument extends Document {
             property="twitter:description"
             content="Ui/Ux Designer devoted to creating functional web & mobile experiences focused on daily solutions."
           />
-          <meta property="twitter:image" content="og.jpg" />
+          <meta
+            property="twitter:image"
+            content="https://maiara-santos.vercel.app/og.jpg"
+          />
         </Head>
         <body>
           <Main />

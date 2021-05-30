@@ -13,8 +13,8 @@ export const HeroSection = () => (
       <StarPolygonIcon color="brand.primary" w="19px" h="19px" />
     </Flex>
     <Text fontSize="2xl" maxW="582px" textAlign="center" m="0 auto">
-      <Text as="strong">Ui/Ux Designer</Text> devoted to create functional web &
-      mobile experiences focused in daily solutions.
+      <strong>Ui/Ux Designer</strong> devoted to creating functional web &
+      mobile experiences focused on daily solutions.
     </Text>
     <Flex direction="column" align="center" mt={20}>
       <Button

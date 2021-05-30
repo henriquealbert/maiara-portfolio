@@ -5,7 +5,7 @@ import { TopDivider } from 'modules/components/TopDivider'
 import { StarPolygonIcon } from 'modules/components/Icons'
 
 export const HeroSection = () => (
-  <Box h="100vh" as="section">
+  <Box h="100vh" as="section" id="hero">
     <Navbar />
     <TopDivider />
     <Flex justify="center" my={20}>

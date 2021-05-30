@@ -3,7 +3,7 @@ import { Box, Flex, Text, Button } from '@chakra-ui/react'
 import { data } from './data'
 
 export const Contact = () => (
-  <Box as="section" textAlign="center" my={24}>
+  <Box as="section" textAlign="center" my={24} id="contact">
     <Text fontWeight="medium" letterSpacing="wide" mb={7}>
       Feel free to send me a message at <strong>LinkedIn</strong> or{' '}
       <strong>e-mail</strong> me:

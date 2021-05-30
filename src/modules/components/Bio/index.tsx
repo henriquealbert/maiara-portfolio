@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { LocationIcon, StarPolygonIcon } from 'modules/components/Icons'
 
 export const Bio = () => (
-  <Flex justify="center" align="center" my={24}>
+  <Flex justify="center" align="center" my={24} id="about-me">
     <Box w="100%" h="100%" maxW="263px" maxH="310px">
       <Image
         src="/assets/images/photo.png"

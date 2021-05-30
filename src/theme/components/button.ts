@@ -46,7 +46,7 @@ export const button = {
       }
     },
     ghost: {
-      width: '200px',
+      width: '100%',
       height: '40px',
       fontSize: 'xs',
       fontFamily: '"Roboto Slab", serif',

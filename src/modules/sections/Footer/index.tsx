@@ -1,7 +1,6 @@
 import { Box, Flex, Text } from '@chakra-ui/layout'
+import { Menu } from 'modules/components/Menu'
 import Image from 'next/image'
-
-import { FooterLinks } from 'modules/components/FooterLinks'
 
 export const FooterSection = () => (
   <Box as="footer" bgColor="brand.100" py={10}>
@@ -12,7 +11,7 @@ export const FooterSection = () => (
       m="0 auto"
       px={16}
     >
-      <FooterLinks />
+      <Menu footer />
       <Image
         src="/assets/images/logo.png"
         width="45px"
@@ -22,7 +21,7 @@ export const FooterSection = () => (
       />
     </Flex>
 
-    <Box bgColor="black" w="100%" maxW="80rem" h="1px" my={6} mx="auto" />
+    <Box bgColor="#393939" w="100%" maxW="80rem" h="1px" my={6} mx="auto" />
 
     <Text fontSize="sm" letterSpacing="wide" textAlign="center">
       © All rights reserved. Developed by{' '}

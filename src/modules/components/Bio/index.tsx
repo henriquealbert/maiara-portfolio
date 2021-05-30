@@ -12,6 +12,7 @@ export const Bio = () => (
         height={310}
         layout="responsive"
         quality={100}
+        alt="Profile photo of Maiara Santos"
       />
     </Box>
     <Box ml={12}>

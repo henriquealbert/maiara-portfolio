@@ -75,6 +75,7 @@ export const ProjectItem = ({ item }: Props) => (
         height={486}
         objectFit="cover"
         quality={100}
+        alt="Project thumbnail"
       />
     </Box>
   </Flex>

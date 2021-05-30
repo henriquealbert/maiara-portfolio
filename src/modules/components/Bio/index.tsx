@@ -11,6 +11,7 @@ export const Bio = () => (
         width={263}
         height={310}
         layout="responsive"
+        quality={100}
       />
     </Box>
     <Box ml={12}>

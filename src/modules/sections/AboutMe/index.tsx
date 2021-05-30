@@ -6,7 +6,7 @@ import { Contact } from 'modules/components/Contact'
 export const AboutMeSection = () => (
   <Box as="section">
     <Bio />
-    <Box h="1px" w="75%" bgColor="brand.200" m="0 auto" />
+    <Box h="1px" w="100%" maxW="80rem" bgColor="brand.200" m="0 auto" />
     <Contact />
   </Box>
 )

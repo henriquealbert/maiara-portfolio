@@ -4,7 +4,7 @@ import { data } from './data'
 
 export const Contact = () => (
   <Box as="section" textAlign="center" my={24}>
-    <Text fontWeight="medium" letterSpacing="0.02rem" mb={7}>
+    <Text fontWeight="medium" letterSpacing="wide" mb={7}>
       Feel free to send me a message at <strong>LinkedIn</strong> or{' '}
       <strong>e-mail</strong> me:
     </Text>

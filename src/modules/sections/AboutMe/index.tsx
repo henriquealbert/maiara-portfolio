@@ -1,5 +1,12 @@
+import { Box } from '@chakra-ui/react'
+
+import { Bio } from 'modules/components/Bio'
+import { Contact } from 'modules/components/Contact'
+
 export const AboutMeSection = () => (
-  <section>
-    <p>About me</p>
-  </section>
+  <Box as="section">
+    <Bio />
+    <Box h="1px" w="75%" bgColor="brand.200" m="0 auto" />
+    <Contact />
+  </Box>
 )

@@ -1,15 +1,15 @@
 import { Box, Button, Flex, Text } from '@chakra-ui/react'
 
 import { Navbar } from 'modules/components/Navbar'
-import { StarPolygon } from 'modules/components/StarPolygon'
 import { TopDivider } from 'modules/components/TopDivider'
+import { StarPolygonIcon } from 'modules/components/Icons'
 
 export const HeroSection = () => (
   <Box h="100vh" as="section">
     <Navbar />
     <TopDivider />
     <Flex justify="center" my={20}>
-      <StarPolygon />
+      <StarPolygonIcon color="brand.primary" w="19px" h="19px" />
     </Flex>
     <Text fontSize="2xl" maxW="582px" textAlign="center" m="0 auto">
       <Text as="strong">Ui/Ux Designer</Text> devoted to create functional web &

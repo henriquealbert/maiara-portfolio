@@ -1,5 +1,12 @@
+import { Box } from '@chakra-ui/react'
+
+import { ProjectItem } from 'modules/components/ProjectItem'
+import { data } from './data'
+
 export const ProjectsSection = () => (
-  <section>
-    <p>Projects</p>
-  </section>
+  <Box as="section" bgColor="black">
+    {data.map((project) => (
+      <ProjectItem key={project.title} item={project} />
+    ))}
+  </Box>
 )

@@ -87,7 +87,7 @@ export const button = {
       lineHeight: '6',
       fontWeight: 'normal',
       fontFamily: 'Quicksand, sans-serif',
-      letterSpacing: '0.02rem',
+      letterSpacing: 'wide',
       _hover: {
         color: 'brand.primary'
       }

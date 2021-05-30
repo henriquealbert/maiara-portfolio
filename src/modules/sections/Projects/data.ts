@@ -5,7 +5,7 @@ export const data = [
     role: 'Product Design  |  UI/UX   |  UX Writing',
     description:
       'My purpouse with this company was to design an easy solution to people create their own business card.',
-    link: '/projects/hola-cartao.pdf',
+    link: '/projects/Maiara Santos - Portfolio - Hola Cartão.pdf',
     imgUrl: '/assets/images/hola-cartao.png'
   },
   {
@@ -14,7 +14,7 @@ export const data = [
     role: 'UI Design',
     description:
       'A minimalist institutional website interface for the software development company El Cubo.dev',
-    link: '/projects/elcubo.pdf',
+    link: '/projects/Maiara Santos - Portfolio - ElCubo.pdf',
     imgUrl: '/assets/images/elcubo.png',
     reversed: true
   }

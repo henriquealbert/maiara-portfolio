@@ -57,7 +57,13 @@ export const ProjectItem = ({ item }: Props) => (
         {item.description}
       </Text>
 
-      <Button as="a" href={item.link} variant="outline">
+      <Button
+        as="a"
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        variant="outline"
+      >
         Show more
       </Button>
     </Box>

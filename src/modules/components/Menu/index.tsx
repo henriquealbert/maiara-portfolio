@@ -8,19 +8,20 @@ type Props = {
 }
 
 export const Menu = ({ footer }: Props) => (
-  <Flex as="nav">
+  <Flex as="nav" wrap={{ base: 'wrap', md: 'nowrap' }}>
     {menuLinks.map((link) =>
       link.external ? (
         <Button
           key={link.title}
           as="a"
           variant={footer ? 'footerLink' : 'ghost'}
-          mr={footer ? 9 : 8}
-          ml={footer ? 0 : 8}
+          mr={footer ? { base: 4, lg: 9 } : { lg: 8 }}
+          ml={footer ? 0 : { md: 8 }}
           cursor="pointer"
           target="_blank"
           rel="noopener noreferrer"
           href={link.to}
+          maxW={{ base: '50%', md: 'none' }}
         >
           {link.title}
         </Button>
@@ -32,9 +33,14 @@ export const Menu = ({ footer }: Props) => (
           smooth={true}
           duration={1200}
           variant={footer ? 'footerLink' : 'ghost'}
-          mr={footer ? 9 : 8}
-          ml={footer ? 0 : 8}
+          mr={footer ? { base: 4, lg: 9 } : { lg: 9 }}
+          ml={footer ? 0 : { md: 8 }}
           cursor="pointer"
+          maxW={
+            link.title === 'Home'
+              ? { bae: '100%' }
+              : { base: '50%', md: 'none' }
+          }
         >
           {link.title}
         </Button>

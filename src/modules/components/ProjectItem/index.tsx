@@ -18,7 +18,11 @@ export const ProjectItem = ({ item }: Props) => (
     py={16}
     justify="center"
     align="center"
-    direction={item.reversed ? 'row-reverse' : 'row'}
+    direction={
+      item.reversed
+        ? { base: 'column-reverse', md: 'row-reverse' }
+        : { base: 'column-reverse', md: 'row' }
+    }
   >
     <Box ml={9}>
       <Heading
@@ -67,7 +71,7 @@ export const ProjectItem = ({ item }: Props) => (
         Show more
       </Button>
     </Box>
-    <Box w="80%" maxW="776px" h="80%" maxH="486px">
+    <Box w="80%" maxW="776px" h="80%" maxH="486px" mb={{ base: 2, md: 0 }}>
       <Image
         src={item.imgUrl}
         layout="responsive"

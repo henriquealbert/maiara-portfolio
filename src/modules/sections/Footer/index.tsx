@@ -9,7 +9,7 @@ export const FooterSection = () => (
       align="center"
       maxW="80rem"
       m="0 auto"
-      px={16}
+      px={{ base: 10, md: 16 }}
     >
       <Menu footer />
       <Image
@@ -23,7 +23,12 @@ export const FooterSection = () => (
 
     <Box bgColor="#393939" w="100%" maxW="80rem" h="1px" my={6} mx="auto" />
 
-    <Text fontSize="sm" letterSpacing="wide" textAlign="center">
+    <Text
+      fontSize="sm"
+      letterSpacing="wide"
+      textAlign="center"
+      px={{ base: 8, md: 0 }}
+    >
       © All rights reserved. Developed by{' '}
       <Text
         as="a"

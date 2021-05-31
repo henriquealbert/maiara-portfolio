@@ -4,8 +4,21 @@ import Image from 'next/image'
 import { LocationIcon, StarPolygonIcon } from 'modules/components/Icons'
 
 export const Bio = () => (
-  <Flex justify="center" align="center" my={24} id="about-me">
-    <Box w="100%" h="100%" maxW="263px" maxH="310px">
+  <Flex
+    justify="center"
+    align="center"
+    my={24}
+    id="about-me"
+    direction={{ base: 'column', md: 'row' }}
+  >
+    <Box
+      w="100%"
+      h="100%"
+      maxW="263px"
+      maxH="310px"
+      mb={{ base: 4, md: 0 }}
+      pl={{ md: 12, lg: 0 }}
+    >
       <Image
         src="/assets/images/photo.png"
         width={263}
@@ -15,7 +28,7 @@ export const Bio = () => (
         alt="Profile photo of Maiara Santos"
       />
     </Box>
-    <Box ml={12}>
+    <Box pl={12} pr={{ base: 12, lg: 0 }}>
       <Flex align="center">
         <Text
           as="h2"

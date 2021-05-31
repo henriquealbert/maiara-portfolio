@@ -12,7 +12,13 @@ export const HeroSection = () => (
     <Flex justify="center" my={20}>
       <StarPolygonIcon color="brand.primary" w="19px" h="19px" />
     </Flex>
-    <Text fontSize="2xl" maxW="582px" textAlign="center" m="0 auto">
+    <Text
+      fontSize="2xl"
+      maxW="582px"
+      textAlign="center"
+      m="0 auto"
+      px={{ base: 6, md: 0 }}
+    >
       <strong>Ui/Ux Designer</strong> devoted to creating functional web &
       mobile experiences focused on daily solutions.
     </Text>

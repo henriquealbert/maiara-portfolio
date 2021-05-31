@@ -9,7 +9,7 @@ export const HeroSection = () => (
   <Box as="section" id="hero">
     <Navbar />
     <TopDivider />
-    <Flex justify="center" my={20}>
+    <Flex justify="center" my={{ base: 16, md: 20 }}>
       <StarPolygonIcon color="brand.primary" w="19px" h="19px" />
     </Flex>
     <Text
@@ -22,7 +22,7 @@ export const HeroSection = () => (
       <strong>Ui/Ux Designer</strong> devoted to creating functional web &
       mobile experiences focused on daily solutions.
     </Text>
-    <Flex direction="column" align="center" mt={20}>
+    <Flex direction="column" align="center" mt={{ base: 16, md: 20 }}>
       <Button
         as={ScrollLink}
         to="projects"

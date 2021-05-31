@@ -15,7 +15,7 @@ export const Menu = ({ footer }: Props) => (
           key={link.title}
           as="a"
           variant={footer ? 'footerLink' : 'ghost'}
-          mr={footer ? { base: 4, lg: 9 } : { lg: 8 }}
+          mr={footer ? { base: 5, lg: 9 } : { lg: 8 }}
           ml={footer ? 0 : { md: 8 }}
           cursor="pointer"
           target="_blank"
@@ -33,7 +33,7 @@ export const Menu = ({ footer }: Props) => (
           smooth={true}
           duration={1200}
           variant={footer ? 'footerLink' : 'ghost'}
-          mr={footer ? { base: 4, lg: 9 } : { lg: 9 }}
+          mr={footer ? { base: 5, lg: 9 } : { lg: 9 }}
           ml={footer ? 0 : { md: 8 }}
           cursor="pointer"
           maxW={

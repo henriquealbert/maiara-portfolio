@@ -11,7 +11,7 @@ export const Bio = () => (
     id="about-me"
     direction={{ base: 'column', md: 'row' }}
   >
-    <Box
+    {/* <Box
       w="100%"
       h="100%"
       maxW="263px"
@@ -20,14 +20,14 @@ export const Bio = () => (
       pl={{ md: 12, lg: 0 }}
     >
       <Image
-        src="/assets/images/photo.png"
+        src=""
         width={263}
         height={310}
         layout="responsive"
         quality={100}
         alt="Profile photo of Maiara Santos"
       />
-    </Box>
+    </Box> */}
     <Box pl={12} pr={{ base: 12, lg: 0 }}>
       <Flex align="center">
         <Text
